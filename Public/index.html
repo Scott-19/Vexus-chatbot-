@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Vexus - Foundation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ Vexus</h1>
+            <p class="subtitle">Foundation v1.0</p>
+            <div class="status" id="status">
+                <span class="status-dot"></span>
+                Carregando...
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message assistant-message">
+                        <strong>Vexus:</strong> Olá! Sou o Vexus Foundation. Estou pronto para ajudar!
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" id="userInput" placeholder="Digite sua mensagem..." autocomplete="off">
+                    <button onclick="sendMessage()">Enviar</button>
+                </div>
+            </div>
+
+            <div class="info-panel">
+                <div class="info-card">
+                    <h3>🎯 Funcionalidades</h3>
+                    <ul>
+                        <li>Chat básico funcionando</li>
+                        <li>Fallback automático</li>
+                        <li>Pronto para expansão</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>🚀 Próximos Passos</h3>
+                    <ul>
+                        <li>Integrar DeepSeek API</li>
+                        <li>Adicionar upload de arquivos</li>
+                        <li>Expansão gradual</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por <strong>Victorino Sérgio</strong> | Base sólida para crescimento</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
